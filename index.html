@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link
+      rel="icon"
+      href="https://image.flaticon.com/icons/png/128/3104/3104915.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Churrascômetro</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="left">
+          <h2 class="titulo">
+            Calcule quantos vai gastar em um churrascô tchê 🤭✌!!
+          </h2>
+          <img
+            src="./img/barbecue1.jpg"
+            alt="foto escrito em inglês grill em português grelha"
+            class="churras"
+          />
+        </div>
+
+        <div class="right">
+          <h1 class="tituloChurras">🍻Churrascômetro</h1>
+          <p class="subtitulo">
+            Calcule a quantidade certa para o seu churrasco
+          </p>
+          <input
+            id="adultos"
+            name="adultos"
+            type="number"
+            placeholder="Adultos"
+            required
+          />
+          <input
+            id="criancas"
+            name="criancas"
+            type="number"
+            placeholder="Crianças"
+            required
+          />
+          <input
+            id="duracao"
+            name="duracao"
+            type="number"
+            placeholder="Duração (h)"
+          />
+          <button onclick="calcular()">Calcular</button>
+          <div id="resultado"></div>
+        </div>
+      </main>
+      <footer>
+        <h3 class="footer">
+          Todos os direito reservados para
+          <a href="https://www.instagram.com/diego.loop/">Diego Lopes</a>
+        </h3>
+        <p class="rodape footer">
+          Aplicação feito do curso
+          <a
+            href="https://programadorbr.com/?src=adgogbst&gclid=CjwKCAjwo4mIBhBsEiwAKgzXOGrJmzNSKl_vnJJb-CoQ2AJoB0_mJ2sULsmx3VJzmO3sqXMU32VpZBoCL1MQAvD_BwE"
+            >ProgramadorBR</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
