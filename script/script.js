@@ -30,7 +30,8 @@ function calcular() {
     (bebidaPorPessoa(duracao) / 2) * criancas
   console.log(qdtTotalBebidas)
 
-  resultado.innerHTML = `<img class="icons" src="https://image.flaticon.com/icons/png/128/1134/1134447.png" alt="icone de carne" /><p class="paragrafo"> ${
+  resultado.innerHTML = `<h2>Quantidade que vai precisar é de:</h2>`
+  resultado.innerHTML += `<img class="icons" src="https://image.flaticon.com/icons/png/128/1134/1134447.png" alt="icone de carne" /><p class="paragrafo"> ${
     qdtTotalCarne / 1000
   } Kg de Carne</p>`
   resultado.innerHTML += `<img class="icons" src="https://image.flaticon.com/icons/png/128/761/761777.png" alt="icone de cerveja" /><p class="paragrafo"> ${Math.ceil(
