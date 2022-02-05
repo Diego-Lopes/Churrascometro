@@ -19,16 +19,16 @@ function calcular() {
   let duracao = inputDuracao.value
 
   let qdtTotalCarne =
-    carnePorPessoa(duracao) * adultos + (carnePorPessoa(duracao) / 2) * criancas
-  console.log(qdtTotalCarne)
+    carnePorPessoa(duracao) * adultos + (carnePorPessoa(duracao) / 2 * criancas);
 
-  let qdtTotalCerveja = cervejaPorPessoa(duracao) * adultos
-  console.log(qdtTotalCerveja)
+
+  let qdtTotalCerveja = cervejaPorPessoa(duracao) * adultos;
+  
 
   let qdtTotalBebidas =
     bebidaPorPessoa(duracao) * adultos +
-    (bebidaPorPessoa(duracao) / 2) * criancas
-  console.log(qdtTotalBebidas)
+    (bebidaPorPessoa(duracao) / 2 * criancas);
+
 
   resultado.innerHTML = `<h2>Quantidade que vai precisar é de:</h2>`
   resultado.innerHTML += `<img class="icons" src="https://image.flaticon.com/icons/png/128/1134/1134447.png" alt="icone de carne" /><p class="paragrafo"> ${
