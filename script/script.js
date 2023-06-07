@@ -15,7 +15,7 @@ function calcular() {
   console.log('calculando')
 
   let adultos = inputAdultos.value
-  let criancas = inputDuracao.value
+  let criancas = inputCriancas.value
   let duracao = inputDuracao.value
 
   let qdtTotalCarne =
